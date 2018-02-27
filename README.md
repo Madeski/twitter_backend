@@ -1,19 +1,19 @@
 # Twitter back-end
 
-##h1 Technology Stack :
-*Testing tool = Postman
-*AccessToken storage = Redis
-*Users & Tweets DB = MongoDB
-*API Server = Express.js
+## h1 Technology Stack :
+-ul Testing tool = Postman
+-ul AccessToken storage = Redis
+-ul Users & Tweets DB = MongoDB
+-ul API Server = Express.js
 
-##h1 REST API :
+## h1 REST API :
 
-*POST /users - registration { login, password, passwordConfirm }
-*PUT /users - login { login, password }
-*GET /tweets - get your tweets [AUTH]
-*POST /tweets - post your tweet [AUTH] { text }
+-ul POST /users - registration { login, password, passwordConfirm }
+-ul PUT /users - login { login, password }
+-ul GET /tweets - get your tweets [AUTH]
+-ul POST /tweets - post your tweet [AUTH] { text }
 
-##h3 Running the server
+## h1 Running the server
 
     npm install
     npm start
